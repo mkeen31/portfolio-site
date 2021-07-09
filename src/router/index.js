@@ -23,10 +23,16 @@ const routes = [
 
   },
   {
-    path: '/portfolio/projects/:id',
-    name: 'Project Details',
+    path: '/portfolio/experience/:id',
+    name: 'Experience Details',
     props: parseId,
-    component: () => import(/* webpackChunkName: "project-detail" */ '../views/ProjectDetail.vue'),
+    component: () => import(/* webpackChunkName: "experience-detail" */ '../views/ExperienceDetail.vue'),
+  },
+  {
+    path: '/portfolio/employment/:id',
+    name: 'Employment Details',
+    props: parseId,
+    component: () => import(/* webpackChunkName: "employment-detail" */ '../views/EmploymentDetail.vue'),
   },
   {
     path: '/about',
