@@ -1,0 +1,37 @@
+h2 {
+    margin-bottom: 30px;
+}
+
+#contact {
+    color: #fff;
+    text-align: center;
+    background-color: #4a4a4a;
+    height: 82.5vh;
+    position: relative;
+}
+
+#contact-content {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+#contact-content img {
+    display: inline-block;
+    height: 200px;
+    width: auto;
+    margin-bottom: 35px;
+    border-radius: 50%;
+}
+
+#contact-content p {
+    margin-bottom: 15px;
+}
+
+#contact-content p a {
+    color: #fff;
+}
+
+#contact-content p a:hover {
+    text-decoration: none;
+}

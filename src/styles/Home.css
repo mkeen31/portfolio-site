@@ -1,0 +1,54 @@
+#home {
+    background-image: linear-gradient(rgba(63, 63, 63, 0.7), rgba(63, 63, 63, 0.7)), url(../images/computer_background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 82.5vh;
+    position: relative;
+    text-align: center;
+  }
+
+  #home-intro {
+    color: #fff;
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    right: inherit;
+  }
+
+  #home-text {
+    width: 700px;
+    margin: 30px auto 0 auto;
+}
+
+  #home-links {
+      margin-top: 45px;
+  }
+
+  #home-links ul li {
+    margin: 5px 25px;
+    display: inline-block;
+  }
+
+  .btn:link,
+  .btn:visited {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+  }
+
+  .btn-outline:link,
+  .btn-outline:visited {
+      border: 1px solid #fff;
+  }
+
+  .btn-outline:hover {
+      background-color: #fff;
+      color: #464646;
+  }
+
+  ul {
+    list-style-type: none;
+  }

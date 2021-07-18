@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h2>About</h2>
-    <div class="text-container">
+  <div id="about">
+    <div id="about-content">
+      <h2>About</h2>
       <p>
       I am an Indiana native and grew up in the city of Fishers. I began attending Ball
       State University in Muncie, Indiana starting August 2017. In May 2021, I graduated 
@@ -23,3 +23,11 @@
     </div>
   </div>
 </template>
+<script>
+import '../styles/About.css';
+
+export default {
+  
+}
+</script>
+

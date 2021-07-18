@@ -1,0 +1,14 @@
+#about {
+    color: #fff;
+    text-align: center;
+    background-color: #4a4a4a;
+    height: 82.5vh;
+}
+
+#about-content {
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    top: 16.7%;
+    left: 31.7%;
+}

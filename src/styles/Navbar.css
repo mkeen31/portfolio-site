@@ -1,0 +1,38 @@
+#logo {
+    
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+  padding: 30px;
+  background-color: #2f88bb;
+  padding-bottom: 50px;
+}
+
+#main-nav {
+    float: right;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#main-nav li a {
+  font-weight: 600;
+  padding-bottom: 22px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s, border 0.2s;
+}
+
+#main-nav li a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+#main-nav li a.router-link-exact-active {
+  color: #464646;
+}
