@@ -1,5 +1,5 @@
 <template>
-    <div id="contact">
+    <div class="contact page-container">
         <div id="contact-content">
             <h2>Contact</h2>
             <img src="../images/selfie.jpg"><br>

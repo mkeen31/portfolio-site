@@ -1,11 +1,7 @@
-#home {
+.home-background {
     background-image: linear-gradient(rgba(63, 63, 63, 0.7), rgba(63, 63, 63, 0.7)), url(../images/computer_background.jpg);
     background-size: cover;
     background-position: center;
-    width: auto;
-    height: 82.5vh;
-    position: relative;
-    text-align: center;
   }
 
   #home-intro {

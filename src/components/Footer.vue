@@ -10,6 +10,8 @@
     </footer>
 </template>
 <script>
+import '../styles/Footer.css';
+
 export default {
     name: "Footer",
     data() {
@@ -23,30 +25,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-footer {
-    padding: 22px;
-    background-color: #2f88bb;
-    text-align: center;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer ul li {
-    display: inline-block;
-    margin: 0 35px;
-}
-
-footer ul li a{
-    color: white;
-}
-
-footer a i:hover {
-    color: #c0c0c0;
-}
-
-</style>

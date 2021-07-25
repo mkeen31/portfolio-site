@@ -1,5 +1,5 @@
 <template>
-  <div id="about">
+  <div class="page-container about">
     <div id="about-content">
       <h2>About</h2>
       <p>
@@ -15,10 +15,10 @@
       </p>
       <p>
       I will be pursuing my master's degree in computer science at Purdue University in West Lafayette, 
-      Indiana starting August 2021. I am planning to research cybersecurity in industrial control systems 
-      under the supervision of Dr. Dongyan Xu. Outside of technology, I enjoy reading about history, 
-      philosophy, horror (Stephen King all the way!), and science in general. I also enjoy spending time 
-      with my girlfriend Gina, my friends, and my family.
+      Indiana starting August 2021. I am planning to research cybersecurity, which will commence with a 
+      project in industrial control systems led by Dr. Dongyan Xu. Outside of technology, I enjoy reading 
+      about history, philosophy, horror (Stephen King all the way!), and science in general. I also enjoy 
+      spending time with my girlfriend Gina, my friends, and my family.
       </p>
     </div>
   </div>
