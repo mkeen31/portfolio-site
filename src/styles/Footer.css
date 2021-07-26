@@ -1,5 +1,7 @@
 footer {
-    height: 87px;
+    height: 10vh;
+    width: 100vw;
+    /*height: 87px;*/
     padding: 22px;
     background-color: #2f88bb;
     text-align: center;

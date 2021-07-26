@@ -2,6 +2,7 @@
   <header>
     <nav>
       <div id="logo">
+        <!--<img src="@/assets/logo.png" height="100" width="100">-->
       </div>
       <ul id="main-nav">
         <li><router-link to="/">Home</router-link></li>
@@ -15,7 +16,7 @@
 </template>
 
 <script>
-import '../styles/Navbar.css';
+import '@/styles/Navbar.css';
 
 export default {
   name: "Navbar",

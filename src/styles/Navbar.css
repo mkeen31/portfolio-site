@@ -1,9 +1,14 @@
 header {
+  width: 100vw;
+  height: 10vh;
+  /*
   height: 87px;
+  display: flex;
+  justify-content: center;*/
 }
 
-#logo {
-    
+#logo img {
+    float: left;
 }
 
 ul {
