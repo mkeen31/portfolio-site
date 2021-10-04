@@ -1,5 +1,5 @@
 <template>
-    <h2>Project Details</h2>
+    <h2>Experience Details</h2>
 </template>
 <script>
 

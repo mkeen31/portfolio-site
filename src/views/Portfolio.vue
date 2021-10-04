@@ -1,43 +1,45 @@
 <template>
     <div id="portfolio" class="page-container">
         <h2>Portfolio</h2>
-        <div id="education-section">
+        <section>
             <h4>Education</h4>
-            <div>
-                <div class="card">
-                    <img>
-                    <div class="card-container">
-                        <h4><strong>Master of Science (in progress)</strong></h4>
-                        <p>Computer Science</p>
-                        <p>Purdue University</p>
+            <div v-for="education in educationData" :key="education.id">
+                <router-link :to="{name: 'education-details', params: { id: education.id }}">
+                    <div class="card">
+                        <img>
+                        <div class="card-container">
+                            <h4><strong>{{ education.degree }}</strong></h4>
+                            <p>{{ education.major }}</p>
+                            <p>{{ education.institution }}</p>
+                        </div>
                     </div>
-                </div>
+                </router-link>
             </div>
-        </div>
-        <div id="employment-section">
+        </section>
+        <section class="clear">
             <h4>Employment Experience</h4>
-            <div>
+            <div v-for="employment in employmentData" :key="employment.id">
                 <div class="card">
                     <img>
                     <div class="card-container">
-                        <h4><strong>Software Developer Intern</strong></h4>
-                        <p>Accutech Systems Corporation</p>
+                        <h4><strong>{{ employment.position }}</strong></h4>
+                        <p>{{ employment.employer }}</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="project-section">
+        </section>
+        <section class="clear">
             <h4>Project Experience</h4>
-            <div>
+            <div v-for="experience in experienceData" :key="experience.id">
                 <div class="card">
                     <img>
                     <div class="card-container">
-                        <h4><strong>Undergraduate Capstone Project</strong></h4>
-                        <p>Ball State University</p>
+                        <h4><strong> {{ experience.name }}</strong></h4>
+                        <p>{{ experience.institution }}</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 </template>
 <script>
@@ -51,10 +53,19 @@ export default {
     name: 'Portfolio',
     data() {
         return {
-            employment: employmentData,
-            experience: experienceData,
-            education: educationData,
+            employmentData,
+            experienceData,
+            educationData,
+            employment: [],
+            experience: [],
+            education: [],
         }
+    },
+    created()
+    {
+    this.employment = this.employmentData;
+    this.education = this.educationData;
+    this.experience = this.experienceData;
     },
 }
 

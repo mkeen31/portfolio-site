@@ -7,46 +7,52 @@ const parseId = r => ({ id: parseInt(r.params.id)});
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home
   },
   {
     path: '/blog',
-    name: 'Blog',
+    name: 'blog',
     component: () => import(/* webpackChunkName: "blog" */ '../views/Blog.vue'),
 
   },
   {
     path: '/portfolio',
-    name: 'Portfolio',
+    name: 'portfolio',
     component: () => import(/* webpackChunkName: "portfolio" */ '../views/Portfolio.vue'),
 
   },
   {
     path: '/portfolio/experience/:id',
-    name: 'Experience Details',
+    name: 'experience-details',
     props: parseId,
     component: () => import(/* webpackChunkName: "experience-detail" */ '../views/ExperienceDetail.vue'),
   },
   {
     path: '/portfolio/employment/:id',
-    name: 'Employment Details',
+    name: 'employment-details',
     props: parseId,
     component: () => import(/* webpackChunkName: "employment-detail" */ '../views/EmploymentDetail.vue'),
   },
   {
+    path: '/portfolio/education/:id',
+    name: 'education-details',
+    props: parseId,
+    component: () => import(/* webpackChunkName: "employment-detail" */ '../views/EducationDetail.vue'),
+  },
+  {
     path: '/about',
-    name: 'About',
+    name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   {
     path: '/contact',
-    name: 'Contact',
+    name: 'contact',
     component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue'),
   },
   {
     path: '/:catchAll(.*)',
-    name: 'Not Found',
+    name: 'not-found',
     component: PageNotFound,
   },
 ]

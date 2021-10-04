@@ -1,8 +1,20 @@
 [
     {
-        "bleh":"bleh"
+        "id": 1,
+        "degree":"Master of Science (in progress)",
+        "major":"Computer Science",
+        "institution":"Purdue University",
+        "start":"2021",
+        "end":"2023 (estimated)",
+        "description":""
     },
     {
-        "bleh":"bleh"
+        "id": 2,
+        "degree":"Bachelor of Science",
+        "major":"Computer Science",
+        "institution":"Ball State University",
+        "start":"2017",
+        "end":"2021",
+        "description":""
     }
 ]

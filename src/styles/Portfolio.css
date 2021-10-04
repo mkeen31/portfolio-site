@@ -5,7 +5,14 @@
     width: 400px;
     height: auto;
     padding-bottom: 15px;
-    background-color: #777575;
+    background-color: #555555;
+    margin-right: 15px;
+    margin: 30px 20px;
+    float: left;
+}
+
+a {
+    color: #fff;
 }
 
 .card:hover {
@@ -14,4 +21,8 @@
 
 .card-container {
     padding: 2px 16px;
+}
+
+.clear {
+    clear: both;
 }
