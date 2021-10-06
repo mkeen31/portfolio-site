@@ -19,25 +19,29 @@
         <section class="clear">
             <h4>Employment Experience</h4>
             <div v-for="employment in employmentData" :key="employment.id">
-                <div class="card">
-                    <img>
-                    <div class="card-container">
-                        <h4><strong>{{ employment.position }}</strong></h4>
-                        <p>{{ employment.employer }}</p>
+                <router-link :to="{name: 'employment-details', params: {id: employment.id}}">
+                    <div class="card">
+                        <img>
+                        <div class="card-container">
+                            <h4><strong>{{ employment.position }}</strong></h4>
+                            <p>{{ employment.employer }}</p>
+                        </div>
                     </div>
-                </div>
+                </router-link>
             </div>
         </section>
         <section class="clear">
             <h4>Project Experience</h4>
             <div v-for="experience in experienceData" :key="experience.id">
-                <div class="card">
-                    <img>
-                    <div class="card-container">
-                        <h4><strong> {{ experience.name }}</strong></h4>
-                        <p>{{ experience.institution }}</p>
+                <router-link :to="{name: 'experience-details', params: {id: experience.id}}">
+                    <div class="card">
+                        <img>
+                        <div class="card-container">
+                            <h4><strong> {{ experience.name }}</strong></h4>
+                            <p>{{ experience.institution }}</p>
+                        </div>
                     </div>
-                </div>
+                </router-link>
             </div>
         </section>
     </div>

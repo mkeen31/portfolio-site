@@ -1,6 +1,17 @@
 <template>
-    <h2>Experience Details</h2>
+    <div class="page-container">
+        <BackButton/>
+        <h2>{ Experience Details }</h2>
+    </div>
 </template>
 <script>
+import '../styles/App.css';
+import BackButton from '../components/BackButton.vue';
+
+export default {
+    components: {
+        BackButton
+    }
+}
 
 </script>
