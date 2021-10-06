@@ -1,6 +1,14 @@
 [
     {
-        "id": "1",
+        "id": 1,
+        "name":"Portfolio Website",
+        "institution":"Personal Project",
+        "start":"2020",
+        "end":"2021",
+        "description":""
+    },
+    {
+        "id": 2,
         "name":"Undergraduate Capstone Project",
         "institution":"Ball State University",
         "start":"2020",
@@ -8,7 +16,7 @@
         "description":""
     },
     {
-        "id": 2,
+        "id": 3,
         "name":"CS4MS+ Website",
         "institution":"Ball State University",
         "start":"2021",

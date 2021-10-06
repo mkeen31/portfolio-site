@@ -1,7 +1,9 @@
 <template>
-    <div id="blog" class="page-container">
-        <h2>Blog</h2>
-        <p>Still under development, coming soon!</p>
+    <div class="page-container">
+        <div id="blog-content">
+            <h2>Blog</h2>
+            <p>Still under development, coming soon!</p>
+        </div>
     </div>
 </template>
 <script>

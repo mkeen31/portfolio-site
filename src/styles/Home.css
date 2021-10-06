@@ -7,9 +7,10 @@
   #home-intro {
     color: #fff;
     position: absolute;
-    top: 27%;
-    left: 30%;
-    right: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
   }
 
   #home-text {
@@ -24,25 +25,6 @@
   #home-links ul li {
     margin: 5px 25px;
     display: inline-block;
-  }
-
-  .btn:link,
-  .btn:visited {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 30px;
-    border-radius: 200px;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-  }
-
-  .btn-outline:link,
-  .btn-outline:visited {
-      border: 1px solid #fff;
-  }
-
-  .btn-outline:hover {
-      background-color: #fff;
-      color: #464646;
   }
 
   ul {
