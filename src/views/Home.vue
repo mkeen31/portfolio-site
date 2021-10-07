@@ -2,11 +2,11 @@
     <div class="home-background page-container">
       <div id="home-intro">
         <h1>Michael Keen</h1>
-        <h3>Professional, Developer, Student</h3>
+        <h3>Professional, Engineer, Student</h3>
         <div id="home-text">
           <p>
             Hello! I am an aspiring cybersecurity professional and 
-            software developer who is currently studying for a master's degree in computer science.
+            software engineer who is currently studying for a master's degree in computer science.
             Find more info about me in the links on this page!
           </p>
         </div>
@@ -14,6 +14,7 @@
           <ul>
             <li><router-link :to="PORTFOLIO_LINK" class="btn btn-outline">My Portfolio</router-link></li>
             <li><router-link :to="CONTACT_LINK" class="btn btn-outline">Contact Information</router-link></li>
+            <li><a :href="RESUME_LINK" class="btn btn-outline">My Resume</a></li>
           </ul>
         </div>
       </div>
@@ -29,6 +30,7 @@ export default {
     return {
       PORTFOLIO_LINK: '/portfolio',
       CONTACT_LINK: '/contact',
+      RESUME_LINK: '#',
     };
   }
 }
