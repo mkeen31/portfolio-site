@@ -11,6 +11,9 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 4%;
+    background-color: #464646;
+    border-radius: 25px;
 }
 
 #contact-content img {
@@ -23,4 +26,22 @@ h2 {
 
 #contact-content p {
     margin-bottom: 15px;
+}
+
+#links ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+#links ul li {
+    display: inline-block;
+    margin: 0 35px;
+}
+
+#links ul li a{
+    color: #fff;
+}
+
+a i:hover {
+    color: #c0c0c0;
 }

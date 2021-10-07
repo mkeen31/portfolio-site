@@ -14,7 +14,7 @@
           <ul>
             <li><router-link :to="PORTFOLIO_LINK" class="btn btn-outline">My Portfolio</router-link></li>
             <li><router-link :to="CONTACT_LINK" class="btn btn-outline">Contact Information</router-link></li>
-            <li><a :href="RESUME_LINK" class="btn btn-outline">My Resume</a></li>
+            <li><a target="_blank" :href="RESUME_LINK" class="btn btn-outline">My Resume</a></li>
           </ul>
         </div>
       </div>
@@ -30,7 +30,7 @@ export default {
     return {
       PORTFOLIO_LINK: '/portfolio',
       CONTACT_LINK: '/contact',
-      RESUME_LINK: '#',
+      RESUME_LINK: '/docs/Michael_Keen_Resume.PDF',
     };
   }
 }

@@ -61,9 +61,8 @@ h2 {
     color: #fff;
     text-align: center;
     background-color: #777777;
-    height: 80vh;
+    height: 92vh;
     width: auto;
     position: relative;
     z-index: 10;
-    overflow: hidden;
 }
