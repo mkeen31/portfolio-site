@@ -2,9 +2,6 @@
     <div class="page-container">
         <div id="portfolio-content">
             <h2>Portfolio</h2>
-            <div id="resume-section">
-                <p><a href="#">View Resume</a></p>
-            </div>
             <section>
                 <h4>Education</h4>
                 <div v-for="education in educationData" :key="education.id">

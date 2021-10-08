@@ -1,8 +1,7 @@
 footer {
     height: 5%;
     width: 100%;
-    padding: 1.5%;
-    padding-bottom: 4.3%;
+    padding: 25px 25px 80px 25px;
     background-color: #2f88bb;
     text-align: center;
     z-index: 20;
