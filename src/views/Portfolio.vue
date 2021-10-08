@@ -1,5 +1,5 @@
 <template>
-    <div class="page-container">
+    <div class="page-container portfolio">
         <div id="portfolio-content">
             <h2>Portfolio</h2>
             <section>

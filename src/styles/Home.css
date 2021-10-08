@@ -2,6 +2,7 @@
     background-image: linear-gradient(rgba(63, 63, 63, 0.7), rgba(63, 63, 63, 0.7)), url(../images/computer_background.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
   }
 
   #home-intro {

@@ -1,10 +1,12 @@
-#resume-section {
-    text-align: right;
-    margin-right: 16%;
+.portfolio {
+    overflow-y: scroll;
 }
 
-#resume-section p {
-    font-weight: 700;
+#portfolio-content {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .card {
@@ -14,7 +16,7 @@
     width: 400px;
     height: auto;
     padding-bottom: 15px;
-    background-color: #555555;
+    background-color: #464646;
     margin: 30px 20px;
     float: left;
     z-index: 10;
