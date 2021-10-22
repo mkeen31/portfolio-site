@@ -18,26 +18,56 @@ nav {
   position: relative;
 }
 
-#main-nav {
+#menu {
     float: right;
 }
 
-#main-nav li {
+#bars {
+  display: none;
+}
+
+#menu-list li {
     display: inline-block;
     margin: 0 20px;
 }
 
-#main-nav li a {
+i {
+  color: #fff;
+  margin-right: 20px;
+}
+
+#menu-list li a {
   font-weight: 600;
-  color: white;
+  color: #fff;
   text-decoration: none;
   transition: background-color 0.2s, border 0.2s;
 }
 
-#main-nav li a:hover {
+#menu-list li a:hover {
   color: #464646;
 }
 
-#main-nav li a.router-link-exact-active {
+#menu-list li a.router-link-exact-active {
   color: #464646;
+}
+
+@media only screen and (max-width: 700px) {
+  #menu-list {
+    width: 100%;
+    background-color: #2f88bb;
+    position: absolute;
+    top: 75px;
+    right: 0;
+
+  }
+  #menu-list li {
+    display: block;
+    margin: 10px 0;
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  #bars {
+    display: block;
+  }
 }
