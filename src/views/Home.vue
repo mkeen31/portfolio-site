@@ -30,7 +30,7 @@ export default {
     return {
       PORTFOLIO_LINK: '/portfolio',
       CONTACT_LINK: '/contact',
-      RESUME_LINK: '/docs/Michael_Keen_Resume.PDF',
+      RESUME_LINK: 'https://mkeen31.github.io/Michael_Keen_Resume.PDF',
     };
   }
 }

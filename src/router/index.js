@@ -14,14 +14,6 @@ const routes = [
     }
   },
   {
-    path: '/docs/pdfviewer',
-    name: 'pdf-viewer',
-    component: () => import(/* webpackChunkName: "pdf-viewer" */ '../views/PDFViewer.vue'),
-    meta: {
-      title: 'Document Viewer | Michael Keen\'s Portfolio Site'
-    }
-  },
-  {
     path: '/blog',
     name: 'blog',
     component: () => import(/* webpackChunkName: "blog" */ '../views/Blog.vue'),
