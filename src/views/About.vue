@@ -24,10 +24,22 @@
   </div>
 </template>
 <script>
-import '../styles/About.css';
 
 export default {
   
 }
 </script>
+<style scoped>
+#about-content {
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+#about-content p {
+    margin-bottom: 25px;
+}
+</style>

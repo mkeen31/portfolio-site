@@ -8,9 +8,17 @@
 </template>
 <script>
 import '../styles/App.css';
-import '../styles/Blog.css';
 
 export default {
     name: 'Blog'
 }
 </script>
+
+<style scoped>
+#blog-content {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+</style>
