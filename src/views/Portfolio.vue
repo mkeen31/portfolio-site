@@ -50,7 +50,6 @@
 </template>
 <script>
 import '../styles/App.css';
-import '../styles/Portfolio.css';
 import employmentData from '../data/employment.json';
 import experienceData from '../data/experience.json';
 import educationData from '../data/education.json';
@@ -76,3 +75,54 @@ export default {
 }
 
 </script>
+
+<style scoped>
+.portfolio {
+    overflow-y: scroll;
+}
+
+#portfolio-content {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    padding-bottom: 15px;
+    background-color: #464646;
+    margin: 30px 20px;
+    float: left;
+    z-index: 10;
+    position: relative;
+}
+
+a {
+    color: #fff;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+    padding: 2px 16px;
+    z-index: 1;
+}
+
+.clear {
+    clear: both;
+}
+
+@media only screen and (max-width: 512px){
+    .card {
+        width: unset;
+        max-width: 400px;
+    }
+}
+</style>

@@ -1,7 +1,8 @@
 <template>
 <div id="app">
-  <div>
-  <Navbar/>
+  <div id="content">
+    <NavbarMobile v-if="mobileView"/>
+    <Navbar v-if="!mobileView"/>
   </div>
   <main>
     <router-view/>
@@ -9,12 +10,27 @@
 </div>
 </template>
 <script>
-import Navbar from '@/components/Navbar';
 import '@/styles/App.css';
+import Navbar from '@/components/Navbar.vue';
+import NavbarMobile from '@/components/NavbarMobile.vue';
 
 export default {
+  data(){
+    return {
+      mobileView: window.innerWidth < 1024,
+    }
+  },
+  methods: {
+    handleView(){
+      this.mobileView = window.innerWidth < 1024;
+    },
+  },
   components: {
     Navbar,
-  }
+    NavbarMobile
+  },
+  created(){
+    window.addEventListener('resize', this.handleView);
+  },
 }
 </script>

@@ -4,8 +4,9 @@
       <div id="logo">
         <!--<img src="@/assets/logo.png" height="100" width="100">-->
       </div>
-      <div id="menu">
-        <ul id="menu-list">
+      <div id="menu-mobile">
+        <i id="bars" class="fas fa-bars" @click="showNav = !showNav"></i>
+        <ul id="menu-list-mobile" v-if="showNav">
           <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/blog">Blog</router-link></li>
           <li><router-link to="/portfolio">Portfolio</router-link></li>
@@ -20,9 +21,12 @@
 <script>
 
 export default {
-  name: "Navbar",
-  methods: {
-  }
+  name: "NavbarMobile",
+  data(){
+    return {
+      showNav: false,
+    }
+  },
 }
 
 </script>
@@ -48,36 +52,45 @@ nav {
   position: relative;
 }
 
-#menu {
+#menu-mobile {
     float: right;
 }
 
+#menu-list-mobile {
+  width: 100%;
+  background-color: #2f88bb;
+  position: absolute;
+  top: 65px;
+  right: 0;
+  height: 190px;
+
+}
+#menu-list-mobile li {
+  display: block;
+  margin: 10px 0;
+  text-align: right;
+  margin-right: 20px;
+}
+
 #bars {
-  display: none;
-}
-
-#menu-list li {
-    display: inline-block;
-    margin: 0 20px;
-}
-
-i {
+  display: block;
   color: #fff;
   margin-right: 20px;
 }
 
-#menu-list li a {
+#menu-list-mobile li a {
   font-weight: 600;
   color: #fff;
   text-decoration: none;
   transition: background-color 0.2s, border 0.2s;
 }
 
-#menu-list li a:hover {
+#menu-list-mobile li a:hover {
   color: #464646;
 }
 
-#menu-list li a.router-link-exact-active {
+#menu-list-mobile li a.router-link-exact-active {
   color: #464646;
 }
+
 </style>
