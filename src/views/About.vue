@@ -30,8 +30,12 @@ export default {
 }
 </script>
 <style scoped>
+.about {
+  overflow-y: scroll;
+}
+
 #about-content {
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
     position: absolute;
     top: 50%;
@@ -42,4 +46,20 @@ export default {
 #about-content p {
     margin-bottom: 25px;
 }
+
+@media only screen and (max-width: 1024px){
+  #about-content {
+    position: relative;
+    top: 5%;
+    left: 0;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 630px), screen and (max-height: 670px) {
+    .about {
+        height: 88vh;
+    }
+}
+
 </style>

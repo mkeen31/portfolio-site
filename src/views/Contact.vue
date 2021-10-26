@@ -79,12 +79,38 @@ h2 {
     margin: 0 35px;
 }
 
-#links ul li a{
+#links ul li a {
     color: #fff;
 }
 
 a i:hover {
     color: #c0c0c0;
+}
+
+@media only screen and (max-width: 1024px){
+    #links ul li {
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-height: 775px){
+    #contact-content {
+        font-size: 90%;
+        padding: 2%;
+    }
+
+    #contact-content img {
+        margin-bottom: 25px;
+        height: 150px;
+    }
+
+    #contact-content p {
+        margin-bottom: 10px;
+    }
+
+    #links ul {
+        margin-top: 5px;
+    }
 }
 
 </style>

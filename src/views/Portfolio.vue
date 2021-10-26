@@ -118,4 +118,11 @@ a {
 .clear {
     clear: both;
 }
+
+@media only screen and (max-width: 512px){
+    .card {
+        width: unset;
+        max-width: 400px;
+    }
+}
 </style>

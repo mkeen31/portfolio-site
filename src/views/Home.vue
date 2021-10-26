@@ -48,13 +48,17 @@ export default {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     z-index: 5;
   }
 
   #home-text {
-    width: 700px;
+    max-width: 700px;
     margin: 30px auto 0 auto;
-}
+  }
 
   #home-links {
       margin-top: 45px;
@@ -68,4 +72,17 @@ export default {
   ul {
     list-style-type: none;
   }
+
+@media only screen and (max-width: 1460px) {
+  #home-links ul li {
+    display: block;
+    margin: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #home-intro {
+    position: relative;
+  }
+}
 </style>
