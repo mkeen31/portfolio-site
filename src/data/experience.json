@@ -3,24 +3,40 @@
         "id": 1,
         "name":"Portfolio Website",
         "institution":"Personal Project",
-        "start":"2020",
-        "end":"2021",
-        "description":""
+        "start":"Mar 2021",
+        "end":"Oct 2021",
+        "description":"My personal portfolio website, which is built with HTML, custom CSS, and Vue.js. It is hosted on Amazon Web Services using the Amplify console and contains all of my professional information. In the future, I am also planning to build a backend for it, which will be based on ASP.NET Core and hosted in AWS EC2. The GitHub repository can be viewed <a target=\"_blank\" href=\"https://github.com/mkeen31/portfolio-site\">here</a>."
     },
     {
         "id": 2,
         "name":"Undergraduate Capstone Project",
         "institution":"Ball State University",
-        "start":"2020",
-        "end":"2021",
-        "description":""
+        "start":"Sep 2020",
+        "end":"Apr 2021",
+        "description":"Android/iOS application built with C#/.NET framework and Xamarin mobile platform for Accutech Systems administrators. My roles for this project included writing unit tests for the business logic, creating mechanisms to fetch and send account information to and from the client's API, and rendering the information in a user friendly format. I also implemented a pagination system to prevent the application from caching too much data at once. The GitHub repository can be viewed <a target=\"_blank\" href=\"https://github.com/capstoneconnector/trust-admin-app\">here</a>."
     },
     {
         "id": 3,
         "name":"CS4MS+ Website",
         "institution":"Ball State University",
-        "start":"2021",
-        "end":"2021",
-        "description":""
+        "start":"Jan 2021",
+        "end":"May 2021",
+        "description":"Website that uses HTML/CSS and PHP; developed/maintained for the Computer Science for Muncie Schools (CS4MS+) initiative at Ball State University. My role consisted of maintaining and modularizing the backend code, updating documentation, and adding more standards/resource pages to the website. The public website can be viewed <a target=\"_blank\" href=\"https://www.cs.bsu.edu/cs4ms/\">here</a> and the GitHub repository <a target=\"_blank\" href=\"https://github.com/dllargent/CS4MS-Website\">here</a>."
+    },
+    {
+        "id": 4,
+        "name":"TLS/SSL Research Project",
+        "institution":"Ball State University",
+        "start":"Oct 2020",
+        "end":"Dec 2020",
+        "description":"Research project completed for an undergraduate network security class. The project discussed the mechanisms of TLS/SSL and explores several current and past problems, such as Heartbleed, renegotiation security, and client impersonation attacks. Completed research paper can be viewed <a target=\"_blank\" href=\"/docs/CS447ResearchProject.pdf\">here</a>."
+    },
+    {
+        "id": 5,
+        "name":"Tor Network Research Project",
+        "institution":"Ball State University",
+        "start":"Jan 2021",
+        "end":"May 2021",
+        "description":"Research initiative in collaboration with Dr. Xin Sun at Ball State University. Research centers around the Tor network, specifically performance issues that  prevent it from scaling to support new users, as well as solutions that can be reached without compromising users' anonymity. Completed research paper can be viewed <a target=\"_blank\" href=\"/docs/CS499TorResearchProject.pdf\">here</a>."
     }
 ]

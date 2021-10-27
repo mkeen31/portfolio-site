@@ -1,23 +1,64 @@
 <template>
     <div class="page-container">
         <BackButton/>
-        <h2>{ Education Details }</h2>
-        <h4></h4>
+        <div id="education-content">
+            <h2>{{ education.degree }}</h2>
+            <h3>{{ education.institution }}</h3>
+            <p>({{ education.start }} - {{ education.end }})</p>
+
+            <div id="description">
+                <p v-html="education.description"></p>
+            </div>
+        </div>
     </div>
 </template>
 <script>
 import '../styles/App.css';
+import { mapGetters } from 'vuex';
 import BackButton from '../components/BackButton.vue';
 
+
 export default {
+    name: 'EducationDetail',
     props: {
         id: {
             type: Number,
             default: 0,
         }
     },
+
+    data() {
+        return {
+            education: {},
+        }
+    },
+
+    created()
+    {
+        this.education = { ...this.getEducationById(this.id)};
+    },
+
+    computed: {
+        ...mapGetters(['getEducationById']),
+    },
+
     components: {
         BackButton
     }
 }
 </script>
+
+<style scoped>
+#education-content {
+    max-width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#description {
+    margin-top: 25px;
+}
+</style>

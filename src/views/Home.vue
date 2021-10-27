@@ -2,11 +2,11 @@
     <div class="home-background page-container">
       <div id="home-intro">
         <h1>Michael Keen</h1>
-        <h3>Professional, Engineer, Student</h3>
+        <h3>Professional, Developer, Student</h3>
         <div id="home-text">
           <p>
             Hello! I am an aspiring cybersecurity professional and 
-            software engineer who is currently studying for a master's degree in computer science.
+            software developer who is currently studying for a master's degree in computer science.
             Find more info about me in the links on this page!
           </p>
         </div>

@@ -46,7 +46,7 @@ ul {
 }
 
 nav {
-  padding: 20px 0 50px 0;
+  padding: 20px 0 35px 0;
   background-color: #2f88bb;
   z-index: 20;
   position: relative;
@@ -60,9 +60,9 @@ nav {
   width: 100%;
   background-color: #2f88bb;
   position: absolute;
-  top: 65px;
+  top: 55px;
   right: 0;
-  height: 190px;
+  height: 160px;
 
 }
 #menu-list-mobile li {
