@@ -18,7 +18,7 @@
                 </div>
             </section>
             <section class="clear">
-                <h4>Employment Experience</h4>
+                <h4>Employment History</h4>
                 <div v-for="employment in employmentData" :key="employment.id">
                     <router-link :to="{name: 'employment-details', params: {id: employment.id}}">
                         <div class="card">
@@ -49,29 +49,39 @@
     </div>
 </template>
 <script>
+import { mapActions, mapState } from 'vuex';
 import '../styles/App.css';
-import employmentData from '../data/employment.json';
-import experienceData from '../data/experience.json';
-import educationData from '../data/education.json';
 
 export default {
     name: 'Portfolio',
-    data() {
-        return {
-            employmentData,
-            experienceData,
-            educationData,
-            employment: [],
-            experience: [],
-            education: [],
-        }
-    },
     created()
     {
-    this.employment = this.employmentData;
-    this.education = this.educationData;
-    this.experience = this.experienceData;
+    this.loadEmploymentData();
+    this.loadExperienceData();
+    this.loadEducationData();
     },
+
+    methods: {
+        ...mapActions(['getEmploymentData', 'getExperienceData', 'getEducationData']),
+
+        loadEmploymentData()
+        {
+            this.getEmploymentData();
+        },
+
+        loadExperienceData()
+        {
+            this.getExperienceData();
+        },
+
+        loadEducationData()
+        {
+            this.getEducationData();
+        },
+    },
+    computed: {
+        ...mapState(['employmentData', 'experienceData', 'educationData']),
+    }
 }
 
 </script>
@@ -119,7 +129,7 @@ a {
     clear: both;
 }
 
-@media only screen and (max-width: 512px){
+@media only screen and (max-width: 450px){
     .card {
         width: unset;
         max-width: 400px;

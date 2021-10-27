@@ -89,13 +89,12 @@ a i:hover {
 
 @media only screen and (max-width: 1024px){
     #links ul li {
-        margin: 15px;
+        margin: 20px;
     }
 }
 
 @media only screen and (max-height: 775px){
     #contact-content {
-        font-size: 90%;
         padding: 2%;
     }
 
