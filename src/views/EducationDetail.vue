@@ -6,6 +6,8 @@
             <h3>{{ education.institution }}</h3>
             <p>({{ education.start }} - {{ education.end }})</p>
 
+            <img v-if="education.imagePath" id="university-logo" :src="`/assets/${education.imagePath}`">
+
             <div id="description">
                 <p v-html="education.description"></p>
             </div>
@@ -60,5 +62,11 @@ export default {
 
 #description {
     margin-top: 25px;
+}
+
+#university-logo {
+    margin-top: 25px;
+    max-width: 175px;
+    max-height: 175px;
 }
 </style>

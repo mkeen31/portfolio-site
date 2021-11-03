@@ -4,6 +4,9 @@
         <div id="employment-content">
             <h2>{{ employment.position }}</h2>
             <h3>{{ employment.employer }}</h3>
+            <p>({{ employment.start }} - {{ employment.end }})</p>
+
+            <img v-if="employment.imagePath" id="company-logo" :src="`/assets/${employment.imagePath}`">
 
             <div id="description">
                 <p v-html="employment.description"></p>
@@ -27,6 +30,7 @@ export default {
     data() {
         return {
             employment: {},
+            imagePath: '',
         }
     },
     created()
@@ -37,7 +41,7 @@ export default {
         ...mapGetters(['getEmploymentById']),
     },
     components: {
-        BackButton
+        BackButton,
     }
 }
 
@@ -54,5 +58,11 @@ export default {
 
 #description {
     margin-top: 25px;
+}
+
+#company-logo {
+    margin-top: 25px;
+    max-width: 175px;
+    max-height: 175px;
 }
 </style>

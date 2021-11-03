@@ -30,7 +30,7 @@ export default {
             experience: {},
         }
     },
-    created()
+    mounted()
     {
         this.experience = { ...this.getExperienceById(this.id)};
     },

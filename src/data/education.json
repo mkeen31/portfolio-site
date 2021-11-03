@@ -6,6 +6,7 @@
         "institution":"Purdue University",
         "start":"Aug 2021",
         "end":"Present",
+        "imagePath":"purdue-logo.png",
         "description":"During my graduate study at Purdue, I have acquired a deeper understanding of computer science fundamentals, such as compiler design and implementation, systems programming, and algorithmic analysis. I have also expanded on my knowledge in cybersecurity, specifically security in software. My cumulative GPA is yet to be calculated (it is currently my first semester)."
     },
     {
@@ -15,6 +16,7 @@
         "institution":"Ball State University",
         "start":"Aug 2017",
         "end":"May 2021",
+        "imagePath":"ball-state-logo.png",
         "description":"During my undergraduate years at Ball State, I learned the foundations of computer science, such as basic programming practices/concepts, computer architecture, algorithm analysis, networking, databases, and software engineering. I graduated <em>summa cum laude</em> with a 3.94 GPA in May 2021."
     }
 ]
