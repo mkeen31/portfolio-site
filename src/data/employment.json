@@ -3,24 +3,27 @@
         "id": 1,
         "employer":"Purdue University",
         "position":"Graduate Research Assistant",
-        "start-date":"Aug 2021",
-        "end-date":"Present",
+        "start":"Aug 2021",
+        "end":"Present",
+        "imagePath":"purdue-logo.png",
         "description":"Right now, I am currently a member of a research team working in collaboration with the Cybersecurity Manufacturing Innovation Institute (CyManII), Oak Ridge National Laboratory (ORNL), and Purdue's Center for Education and Research on Information Assurance and Security (CERIAS). The project is funded by the U.S. Department of Energy with the purpose of strengthening cybersecurity practices in industrial environments. I am currently working to help set up the initial infrastructure."
     },
     {
         "id": 2,
         "employer":"Accutech Systems Corporation",
         "position":"Software Developer Intern",
-        "start-date":"Jun 2021",
-        "end-date":"Aug 2021",
+        "start":"Jun 2021",
+        "end":"Aug 2021",
+        "imagePath":"accutech-logo.png",
         "description":"This was my internship for the summer before I began attending graduate school. Over the course of the internship, I helped to transition company's TAP App project from Xamarin-based Android/iOS application to progressive web application based on Vue.js and an ASP.NET Core Web API, which obtains client data from the main Cheetah database. I also learned the basics of Scrum and met with the manager of software development at least once a week to give updates on my progress."
     },
     {
         "id": 3,
         "employer":"Ball State University",
         "position":"Teaching Assistant",
-        "start-date":"Aug 2018",
-        "end-date":"May 2021",
+        "start":"Aug 2018",
+        "end":"May 2021",
+        "imagePath":"ball-state-logo.png",
         "description":"As an undergraduate teaching assistant I helped the class instructor to teach the material to the students, assisted students who found themselves struggling, and held several office hour sessions throughout the school week. These classes taught a variety of topics, including discrete mathematics, Python programming, Java programming, and the basics of computer networking."
     }
 ]
