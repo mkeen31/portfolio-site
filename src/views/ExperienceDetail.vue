@@ -6,6 +6,8 @@
             <h3>{{ experience.institution }}</h3>
             <p>({{ experience.start }} - {{ experience.end }})</p>
 
+            <img v-if="experience.imagePath" id="experience-logo" :src="`/assets/${experience.imagePath}`">
+
             <div id="description">
                 <p v-html="experience.description"></p>
             </div>
@@ -55,5 +57,11 @@ export default {
 }
 #description {
     margin-top: 25px;
+}
+
+#experience-logo {
+    margin-top: 25px;
+    max-width: 175px;
+    max-height: 175px;
 }
 </style>
