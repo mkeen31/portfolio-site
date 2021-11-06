@@ -15,7 +15,7 @@
         "start":"Sep 2020",
         "end":"Apr 2021",
         "imagePath":"xamarin.png",
-        "description":"This project is an Android/iOS application built with the Xamarin mobile platform and C#/.NET framework. It was created by myself and three other team members as a part of my software engineering capstone project at Ball State, in collaboration with Accutech Systems Corporation. My roles for this project included writing unit tests for the business logic, creating mechanisms to fetch and send account information to and from the client's API, and rendering the information in a user friendly format. I also implemented a pagination system to prevent the application from caching too much data at once. The GitHub repository can be viewed <a target=\"_blank\" href=\"https://github.com/capstoneconnector/trust-admin-app\">here</a>."
+        "description":"This project is an Android/iOS application built with the Xamarin mobile platform and C#/.NET framework. It was created by myself and three other team members for our software engineering capstone project at Ball State, in collaboration with Accutech Systems Corporation. My roles included writing unit tests for the business logic, fetching and sending account information to and from the API, and rendering the information in a user friendly format. The GitHub repository can be viewed <a target=\"_blank\" href=\"https://github.com/capstoneconnector/trust-admin-app\">here</a>."
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "start":"Oct 2020",
         "end":"Dec 2020",
         "imagePath":"tls_ssl.png",
-        "description":"This was a research project that I completed for an undergraduate network security class. The project discusses the mechanisms of TLS/SSL and explores several current and past problems, such as Heartbleed, renegotiation security, and client impersonation attacks. The completed research paper can be viewed <a target=\"_blank\" href=\"https://mkeen31.github.io/projects/CS447ResearchProject.pdf\">here</a>."
+        "description":"This was a research project that I completed for an undergraduate network security class. The project discusses the mechanisms of TLS/SSL and explores several current and past problems, such as Heartbleed, renegotiation security, and client impersonation attacks. The completed research paper can be viewed <a target=\"_blank\" href=\"/assets/CS447ResearchProject.pdf\">here</a>."
     },
     {
         "id": 5,
@@ -42,6 +42,6 @@
         "start":"Jan 2021",
         "end":"May 2021",
         "imagePath":"tor.png",
-        "description":"This research initiative was conducted in collaboration with Dr. Xin Sun at Ball State. The research project centers around the Tor network, specifically performance issues that  prevent it from scaling to support new users, as well as solutions that can be reached without compromising users' anonymity. The completed research paper can be viewed <a target=\"_blank\" href=\"https://mkeen31.github.io/projects/CS499TorResearchProject.pdf\">here</a>."
+        "description":"This research initiative was conducted in collaboration with Dr. Xin Sun at Ball State. The research project centers around the Tor network, specifically performance issues that  prevent it from scaling to support new users, as well as solutions that can be reached without compromising users' anonymity. The completed research paper can be viewed <a target=\"_blank\" href=\"/assets/CS499TorResearchProject.pdf\">here</a>."
     }
 ]
