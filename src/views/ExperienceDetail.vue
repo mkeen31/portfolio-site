@@ -64,4 +64,28 @@ export default {
     max-width: 175px;
     max-height: 175px;
 }
+
+@media only screen and (max-width: 1024px){
+    #experience-logo {
+        margin-top: 20px;
+        max-width: 125px;
+        max-height: 125px;
+    }
+
+    #description {
+    margin-top: 20px;
+}
+}
+
+@media only screen and (max-width: 512px){
+    #experience-logo {
+        margin-top: 10px;
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    #description {
+    margin-top: 10px;
+}
+}
 </style>
