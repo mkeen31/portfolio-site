@@ -29,7 +29,7 @@ export default {
     return {
       PORTFOLIO_LINK: '/portfolio',
       CONTACT_LINK: '/contact',
-      RESUME_LINK: '../assets/Michael_Keen_Resume.PDF',
+      RESUME_LINK: '../assets/Michael_Keen_Resume.pdf',
     };
   }
 }
