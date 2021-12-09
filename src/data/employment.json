@@ -1,15 +1,24 @@
 [
     {
         "id": 1,
-        "employer":"Purdue University",
-        "position":"Graduate Research Assistant",
-        "start":"Aug 2021",
+        "employer":"Accutech Systems Corporation",
+        "position":"Junior Software Developer",
+        "start":"Jan 2022",
         "end":"Present",
-        "imagePath":"purdue-logo.png",
-        "description":"Right now, I am currently a member of a research team working in collaboration with the Cybersecurity Manufacturing Innovation Institute (CyManII), Oak Ridge National Laboratory (ORNL), and Purdue's Center for Education and Research on Information Assurance and Security (CERIAS). The project is funded by the U.S. Department of Energy with the purpose of strengthening cybersecurity practices in industrial environments. I am currently working to help set up the initial infrastructure."
+        "imagePath":"accutech-logo.png",
+        "description":"."
     },
     {
         "id": 2,
+        "employer":"Purdue University",
+        "position":"Graduate Research Assistant",
+        "start":"Aug 2021",
+        "end":"Dec 2021",
+        "imagePath":"purdue-logo.png",
+        "description":"During the fall 2021 semester, I was a member of a research team working on a project in collaboration with the <a target=\"_blank\" href=\"https://www.cerias.purdue.edu/\">CERIAS</a> center at Purdue. The project was intitiated with the purpose of strengthening cybersecurity practices in industrial environments. I helped to set up the initial infrastructure, which included installing the <a target=\"_blank\" href=\"https://hubzero.org/\">HUBzero</a> CMS on a CentOS server and implementing a workflow for data visualization. At the semester end, I chose to discontinue my graduate education and subsequently resigned from the team."
+    },
+    {
+        "id": 3,
         "employer":"Accutech Systems Corporation",
         "position":"Software Developer Intern",
         "start":"Jun 2021",
@@ -18,7 +27,7 @@
         "description":"This was my internship for the summer before I began attending graduate school. Over the course of the internship, I helped to transition company's TAP App project (my undergraduate capstone project) from a Xamarin-based Android/iOS application to progressive web application based on Vue.js and an ASP.NET Core Web API, which obtains client data from the main Cheetah database. I also learned the basics of Scrum and met with the manager of software development at least once a week to give updates on my progress."
     },
     {
-        "id": 3,
+        "id": 4,
         "employer":"Ball State University",
         "position":"Teaching Assistant",
         "start":"Aug 2018",

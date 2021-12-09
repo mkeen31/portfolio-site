@@ -1,16 +1,6 @@
 [
     {
         "id": 1,
-        "degree":"Master of Science (in progress)",
-        "major":"Computer Science",
-        "institution":"Purdue University",
-        "start":"Aug 2021",
-        "end":"Present",
-        "imagePath":"purdue-logo.png",
-        "description":"During my graduate study at Purdue, I have acquired a deeper understanding of computer science fundamentals, such as compiler design and implementation, systems programming, and algorithmic analysis. I have also joined Purdue's <a target=\"_blank\" href=\"https://www.b01lers.net/\">Capture the Flag team</a>, where I'm learning about reverse engineering, web exploitation, binary exploitation, and cryptography. My cumulative GPA is yet to be calculated (it is currently my first semester)."
-    },
-    {
-        "id": 2,
         "degree":"Bachelor of Science",
         "major":"Computer Science",
         "institution":"Ball State University",

@@ -5,8 +5,6 @@
             <img src="../images/selfie.jpg"><br>
             <label>Personal Email: </label>
             <p><a href="mailto:mkeen31@gmail.com">mkeen31@gmail.com</a></p>
-            <label>School Email: </label>
-            <p><a href="mailto:keen18@purdue.edu">keen18@purdue.edu</a></p>
             <label>Phone Number: </label>
             <p>(317) 979-6151</p>
             <label>My Links: </label>

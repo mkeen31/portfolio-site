@@ -2,12 +2,12 @@
     <div class="home-background page-container">
       <div id="home-intro">
         <h1>Michael Keen</h1>
-        <h3>Professional, Developer, Student</h3>
+        <h3>Software Developer</h3>
         <div id="home-text">
           <p>
-            Hello! I am an aspiring cybersecurity professional and 
-            software developer who is currently studying for a master's degree in computer science.
-            Find more info about me in the links on this page!
+            Hello! I am a software developer who is currently based in Muncie, Indiana and is mainly
+            experienced with full stack web development and mobile application development. Find more 
+            info about me in the links on this page!
           </p>
         </div>
         <div id="home-links">

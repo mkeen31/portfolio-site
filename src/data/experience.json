@@ -19,6 +19,15 @@
     },
     {
         "id": 3,
+        "name":"USC Compiler Project",
+        "institution":"Purdue University",
+        "start":"Sep 2021",
+        "end":"Dec 2021",
+        "imagePath":"llvm_logo.png",
+        "description":"This is a project written in C++ that I completed for a graduate-level compilers class (taught by <a target=\"_blank\" href=\"https://www.cs.purdue.edu/homes/chjung/\">Dr. Changhee Jung</a>). It is based on LLVM and is a fully functional compiler for a subset of the C programming language (known as University Simple C). Please contact me for access to the repository if you are interested in viewing it."
+    },
+    {
+        "id": 4,
         "name":"CS4MS+ Website",
         "institution":"Ball State University",
         "start":"Jan 2021",
@@ -27,7 +36,7 @@
         "description":"This is a project that I worked on during my final semester at Ball State as a member of the Computer Science For Muncie Schools (CS4MS+) team; it is a website that uses HTML, CSS, and PHP. My role consisted of maintaining and modularizing the backend code, fixing compatibility issues and other bugs, updating documentation, adding more standards/resource pages to the website, and deploying the updated project to the production server. The public website can be viewed <a target=\"_blank\" href=\"https://www.cs.bsu.edu/cs4ms/\">here</a> and the GitHub repository <a target=\"_blank\" href=\"https://github.com/dllargent/CS4MS-Website\">here</a>."
     },
     {
-        "id": 4,
+        "id": 5,
         "name":"TLS/SSL Research Project",
         "institution":"Ball State University",
         "start":"Oct 2020",
@@ -36,7 +45,7 @@
         "description":"This was a research project that I completed for an undergraduate network security class. The project discusses the mechanisms of TLS/SSL and explores several current and past problems, such as Heartbleed, renegotiation security, and client impersonation attacks. The completed research paper can be viewed <a target=\"_blank\" href=\"/assets/CS447ResearchProject.pdf\">here</a>."
     },
     {
-        "id": 5,
+        "id": 6,
         "name":"Tor Network Research Project",
         "institution":"Ball State University",
         "start":"Jan 2021",
