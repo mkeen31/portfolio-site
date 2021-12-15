@@ -7,16 +7,12 @@
       State University in Muncie, Indiana starting August 2017. In May 2021, I graduated 
       <em>summa cum laude</em> from Ball State with a bachelor's degree in computer science. 
       During my time as a student there, I was a member of the Golden Key International Honour Society 
-      and served as chapter president during the 2020-21 school year. Though computers have been 
-      my passion for some time, I was about halfway through my years at Ball State when I 
-      discovered how much I enjoy cybersecurity. I have since been working diligently to 
-      learn essential skills for the subject.
+      and served as chapter president during the 2020-21 school year. In the classroom, I developed a 
+      keen (pun intended) interest in web development, networking, and cybersecurity, all of which I have 
+      continued to learn about in both my professional life and my spare time.
       </p>
       <p>
-      I will be pursuing my master's degree in computer science at Purdue University in West Lafayette, 
-      Indiana starting August 2021. I will also be joining a research team led by Dr. Dongyan Xu and Dr. Ananth 
-      Grama, where we will work to strengthen cybersecurity practices in industrial control systems.
-      Outside of technology, I enjoy reading about history, philosophy, fantasy, and science-fiction. 
+      Outside of technology, I enjoy reading about history, philosophy, fantasy, and psychology. 
       I also enjoy spending time with my girlfriend Gina, my friends, and my family.
       </p>
     </div>

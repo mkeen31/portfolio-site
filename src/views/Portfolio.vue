@@ -45,6 +45,11 @@
                     </router-link>
                 </div>
             </section>
+            <!--<section class="clear">
+                <h4>Skills</h4>
+                <div>   
+                </div>
+            </section>-->
         </div>
     </div>
 </template>
