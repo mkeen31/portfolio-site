@@ -1,5 +1,14 @@
 [
     {
+        "id": 1,
+        "employer":"Accutech Systems Corporation",
+        "position":"Junior Software Developer",
+        "start":"Jan 2022",
+        "end":"Present",
+        "imagePath":"accutech-logo.png",
+        "description":"As a full-time developer for Accutech Systems, I will be a member of the team working on backend applications."
+    },
+    {
         "id": 2,
         "employer":"Purdue University",
         "position":"Graduate Research Assistant",

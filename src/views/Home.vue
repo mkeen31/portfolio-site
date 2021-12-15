@@ -5,7 +5,7 @@
         <h3>Software Developer</h3>
         <div id="home-text">
           <p>
-            Hello! I am a software developer who is currently based in West Lafayette, Indiana and mainly
+            Hello! I am a software developer who is currently based in Muncie, Indiana and mainly
             experienced with full stack web development and mobile application development. Find more 
             info about me in the links on this page!
           </p>
