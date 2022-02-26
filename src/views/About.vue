@@ -12,8 +12,9 @@
       continued to learn about in both my professional life and my spare time.
       </p>
       <p>
-      Outside of technology, I enjoy reading about history, philosophy, fantasy, and psychology. 
-      I also enjoy spending time with my girlfriend Gina, my friends, and my family.
+      I am currently employed as a junior software developer at Accutech Systems Corporation in Muncie, Indiana,
+      a position I have held since February 2022. Outside of technology, I enjoy reading about history, philosophy, 
+      fantasy, and psychology. I also enjoy spending time with my girlfriend Gina, my friends, and my family.
       </p>
     </div>
   </div>

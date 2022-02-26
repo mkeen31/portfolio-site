@@ -1,5 +1,14 @@
 [
     {
+        "id": 1,
+        "employer":"Accutech Systems Corporation",
+        "position":"Junior Software Developer",
+        "start":"Feb 2022",
+        "end":"Present",
+        "imagePath":"accutech-logo.png",
+        "description":"As a full-time developer for Accutech Systems Corporation, I am a member of the team working on the Cheetah Wealth Management project. I am helping to build new features, fix existing bugs,  and refactor code while operating under a Scrum framework. Technologies being used include C#, ASP.NET Core, JavaScript, Vue.js, and Entity Framework."
+    },
+    {
         "id": 2,
         "employer":"Purdue University",
         "position":"Graduate Research Assistant",
@@ -15,7 +24,7 @@
         "start":"Jun 2021",
         "end":"Aug 2021",
         "imagePath":"accutech-logo.png",
-        "description":"This was my internship for summer 2021 before I began attending graduate school. Over the course of the internship, I helped to transition company's TAP App project (my undergraduate capstone project) from a Xamarin-based Android/iOS application to progressive web application based on Vue.js and an ASP.NET Core Web API, which obtains client data from the main Cheetah database. I also learned the basics of Scrum and met with the manager of software development at least once a week to give updates on my progress."
+        "description":"This was my internship for summer 2021 before I attended graduate school for one semester. Over the course of the internship, I helped to transition company's CheetahGO project (my undergraduate capstone project) from a Xamarin-based Android/iOS application to progressive web application based on Vue.js and an ASP.NET Core Web API, which obtains client data from the main Cheetah database. I also learned the basics of Scrum and met with the manager of software development at least once a week to give updates on my progress."
     },
     {
         "id": 4,
