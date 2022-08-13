@@ -12,8 +12,6 @@
                 <ul>
                     <li><a :href="GITHUB" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
                     <li><a :href="LINKEDIN" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
-                    <li><a :href="TWITTER" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
-                    <li><a :href="INSTAGRAM" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -26,9 +24,7 @@ export default {
     data() {
         return {
             GITHUB: "https://github.com/mkeen31",
-            LINKEDIN: "https://www.linkedin.com/in/michaeljkeen",
-            TWITTER: "https://twitter.com/mkeen31",
-            INSTAGRAM: "https://www.instagram.com/mkeen31",
+            LINKEDIN: "https://www.linkedin.com/in/michaeljkeen"
         }
     }
 }
@@ -74,7 +70,7 @@ h2 {
 
 #links ul li {
     display: inline-block;
-    margin: 0 35px;
+    margin: 0 60px;
 }
 
 #links ul li a {
