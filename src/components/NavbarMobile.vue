@@ -8,7 +8,6 @@
         <i id="bars" class="fas fa-bars" @click="showNav = !showNav"></i>
         <ul id="menu-list-mobile" v-if="showNav">
           <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/blog">Blog</router-link></li>
           <li><router-link to="/portfolio">Portfolio</router-link></li>
           <li><router-link to="/about">About</router-link></li>
           <li><router-link to="/contact">Contact</router-link></li>
