@@ -4,7 +4,7 @@
         <div id="employment-content">
             <h2>{{ employment.position }}</h2>
             <h3>{{ employment.employer }}</h3>
-            <p>({{ employment.start }} - {{ employment.end }})</p>
+            <p>({{ startDate }} - {{ endDate }})</p>
 
             <img v-if="employment.imagePath" id="company-logo" :src="`/assets/${employment.imagePath}`">
 
@@ -16,8 +16,9 @@
 </template>
 <script>
 import '../styles/App.css';
-import { mapGetters } from 'vuex';
+import { mapGetters, mapActions } from 'vuex';
 import BackButton from '../components/BackButton.vue';
+import dateFormatter from '../utils/date-formatter';
 
 export default {
     name: 'EmploymentDetail',
@@ -30,15 +31,26 @@ export default {
     data() {
         return {
             employment: {},
-            imagePath: '',
+            startDate: '',
+            endDate: ''
         }
     },
-    created()
+    async created()
     {
         this.employment = { ...this.getEmploymentById(this.id)};
+        if (!Object.keys(this.employment).length) {
+            // State was lost, so make another API call
+            await this.getEmploymentData(`/${this.id}`);
+            this.employment = { ...this.getEmploymentById(this.id)};
+        }
+        this.startDate = dateFormatter(this.employment.start);
+        this.endDate = dateFormatter(this.employment.end);
     },
     computed: {
         ...mapGetters(['getEmploymentById']),
+    },
+    methods: {
+        ...mapActions(['getEmploymentData'])
     },
     components: {
         BackButton,
