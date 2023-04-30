@@ -3,21 +3,6 @@
         <div id="portfolio-content">
             <h2>Portfolio</h2>
             <section>
-                <h4>Education</h4>
-                <div v-for="education in educationData" :key="education.id">
-                    <router-link :to="{name: 'education-details', params: { id: education.id }}">
-                        <div class="card">
-                            <img>
-                            <div class="card-container">
-                                <h4><strong>{{ education.degree }}</strong></h4>
-                                <p>{{ education.major }}</p>
-                                <p>{{ education.institution }}</p>
-                            </div>
-                        </div>
-                    </router-link>
-                </div>
-            </section>
-            <section class="clear">
                 <h4>Employment History</h4>
                 <div v-for="employment in employmentData" :key="employment.id">
                     <router-link :to="{name: 'employment-details', params: {id: employment.id}}">
@@ -45,11 +30,21 @@
                     </router-link>
                 </div>
             </section>
-            <!--<section class="clear">
-                <h4>Skills</h4>
-                <div>   
+            <section class="clear">
+                <h4>Education</h4>
+                <div v-for="education in educationData" :key="education.id">
+                    <router-link :to="{name: 'education-details', params: { id: education.id }}">
+                        <div class="card">
+                            <img>
+                            <div class="card-container">
+                                <h4><strong>{{ education.degree }}</strong></h4>
+                                <p>{{ education.major }}</p>
+                                <p>{{ education.institution }}</p>
+                            </div>
+                        </div>
+                    </router-link>
                 </div>
-            </section>-->
+            </section>
         </div>
     </div>
 </template>
@@ -59,29 +54,19 @@ import '../styles/App.css';
 
 export default {
     name: 'Portfolio',
-    created()
+    async created()
     {
-    this.loadEmploymentData();
-    this.loadExperienceData();
-    this.loadEducationData();
+        await this.loadData();
     },
 
     methods: {
         ...mapActions(['getEmploymentData', 'getExperienceData', 'getEducationData']),
 
-        loadEmploymentData()
+        async loadData()
         {
-            this.getEmploymentData();
-        },
-
-        loadExperienceData()
-        {
-            this.getExperienceData();
-        },
-
-        loadEducationData()
-        {
-            this.getEducationData();
+            await this.getEmploymentData("");
+            await this.getExperienceData("");
+            await this.getEducationData("");
         },
     },
     computed: {

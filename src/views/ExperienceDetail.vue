@@ -4,7 +4,7 @@
         <div id="experience-content">
             <h2>{{ experience.name }}</h2>
             <h3>{{ experience.institution }}</h3>
-            <p>({{ experience.start }} - {{ experience.end }})</p>
+            <p>({{ startDate }} - {{ endDate }})</p>
 
             <img v-if="experience.imagePath" id="experience-logo" :src="`/assets/${experience.imagePath}`">
 
@@ -16,8 +16,9 @@
 </template>
 <script>
 import '../styles/App.css';
-import { mapGetters } from 'vuex';
+import { mapGetters, mapActions } from 'vuex';
 import BackButton from '../components/BackButton.vue';
+import dateFormatter from '../utils/date-formatter';
 
 export default {
     name: 'ExperienceDetail',
@@ -30,14 +31,26 @@ export default {
     data() {
         return {
             experience: {},
+            startDate: '',
+            endDate: ''
         }
     },
-    mounted()
+    async created()
     {
         this.experience = { ...this.getExperienceById(this.id)};
+        if (!Object.keys(this.experience).length) {
+            // State was lost, so make another API call
+            await this.getExperienceData(`/${this.id}`);
+            this.experience = { ...this.getExperienceById(this.id)};
+        }
+        this.startDate = dateFormatter(this.experience.start);
+        this.endDate = dateFormatter(this.experience.end);
     },
     computed: {
         ...mapGetters(['getExperienceById']),
+    },
+    methods: {
+        ...mapActions(['getExperienceData'])
     },
     components: {
         BackButton

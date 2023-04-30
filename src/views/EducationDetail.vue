@@ -4,7 +4,7 @@
         <div id="education-content">
             <h2>{{ education.degree }}</h2>
             <h3>{{ education.institution }}</h3>
-            <p>({{ education.start }} - {{ education.end }})</p>
+            <p>({{ startDate }} - {{ endDate }})</p>
 
             <img v-if="education.imagePath" id="university-logo" :src="`/assets/${education.imagePath}`">
 
@@ -16,8 +16,9 @@
 </template>
 <script>
 import '../styles/App.css';
-import { mapGetters } from 'vuex';
+import { mapActions, mapGetters } from 'vuex';
 import BackButton from '../components/BackButton.vue';
+import dateFormatter from '../utils/date-formatter';
 
 
 export default {
@@ -32,16 +33,28 @@ export default {
     data() {
         return {
             education: {},
+            startDate: '',
+            endDate: ''
         }
     },
 
-    created()
+    async created()
     {
         this.education = { ...this.getEducationById(this.id)};
+        if (!Object.keys(this.education).length) {
+            // State was lost, so make another API call
+            await this.getEducationData(`/${this.id}`);
+            this.education = { ...this.getEducationById(this.id)};
+        }
+        this.startDate = dateFormatter(this.education.start);
+        this.endDate = dateFormatter(this.education.end);
     },
 
     computed: {
-        ...mapGetters(['getEducationById']),
+        ...mapGetters(['getEducationById'])
+    },
+    methods: {
+        ...mapActions(['getEducationData'])
     },
 
     components: {
