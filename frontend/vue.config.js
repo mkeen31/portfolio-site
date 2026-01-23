@@ -3,5 +3,6 @@ module.exports = {
       config.module.rule('pdf')
         .test(/\.pdf$/)
         .use('file-loader').loader('file-loader')
-    }
+    },
+    transpileDependencies: ['vue-router']
   }

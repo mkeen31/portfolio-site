@@ -12,9 +12,9 @@
       continued to learn about in both my professional life and my spare time.
       </p>
       <p>
-      I am currently employed as a junior software developer at Accutech Systems Corporation in Muncie, Indiana,
-      a position I have held since February 2022. Outside of technology, I enjoy going outside, exercising, and 
-      reading philosophy, fantasy, and spirituality. I also enjoy spending time with my friends and my family.
+      I am currently employed as a Software Developer II and Technical Team Lead at Cheetah Inc. in Muncie, Indiana. 
+      Outside of technology, I enjoy going outside, exercising, and reading philosophy, fantasy, and psychology. 
+      I also enjoy spending time with my friends and my family.
       </p>
     </div>
   </div>

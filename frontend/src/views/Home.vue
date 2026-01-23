@@ -2,10 +2,10 @@
     <div class="home-background page-container">
       <div id="home-intro">
         <h1>Michael Keen</h1>
-        <h3>Software Developer</h3>
+        <h3>Software Engineer</h3>
         <div id="home-text">
           <p>
-            Hello! I am a software developer and aspiring software architect who is currently based in Muncie, Indiana. 
+            Hello! I am a software engineer and aspiring software architect who is currently based in the Indianapolis, Indiana area. 
             Find more info about me in the links on this page!
           </p>
         </div>
@@ -28,14 +28,14 @@ export default {
     return {
       PORTFOLIO_LINK: '/portfolio',
       CONTACT_LINK: '/contact',
-      RESUME_LINK: '../assets/Michael_Keen_Resume.pdf',
+      RESUME_LINK: '../assets/MichaelKeenResume.pdf',
     };
   }
 }
 </script>
 <style scoped>
 .home-background {
-    background-image: linear-gradient(rgba(63, 63, 63, 0.7), rgba(63, 63, 63, 0.7)), url(../images/computer_background.jpg);
+    background-image: linear-gradient(rgba(63, 63, 63, 0.7), rgba(63, 63, 63, 0.7)), url(../images/software-development.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
