@@ -34,17 +34,17 @@ const mutations = {
 const actions = {
   async getEmploymentData({ commit }, subPath)
   {
-    const data = await (await axiosClient().get(`Employment${subPath}`)).data;
+    const data = await (await axiosClient().get(`employment${subPath}`)).data;
     commit("mutateEmploymentData", data);
   },
   async getExperienceData({ commit }, subPath)
   {
-    const data = await (await axiosClient().get(`Experience${subPath}`)).data;
+    const data = await (await axiosClient().get(`experience${subPath}`)).data;
     commit("mutateExperienceData", data);
   },
   async getEducationData({ commit }, subPath)
   {
-    const data = await (await axiosClient().get(`Education${subPath}`)).data;
+    const data = await (await axiosClient().get(`education${subPath}`)).data;
     commit("mutateEducationData", data);
   },
 };

@@ -4,8 +4,8 @@
             <h2>Portfolio</h2>
             <section>
                 <h4>Employment History</h4>
-                <div v-for="employment in employmentData" :key="employment.id">
-                    <router-link :to="{name: 'employment-details', params: {id: employment.id}}">
+                <div v-for="employment in orderItems(employmentData)" :key="employment.id">
+                    <router-link :to="{name: 'employment-details', params: { id: employment.id }}">
                         <div class="card">
                             <img>
                             <div class="card-container">
@@ -18,8 +18,8 @@
             </section>
             <section class="clear">
                 <h4>Project Experience</h4>
-                <div v-for="experience in experienceData" :key="experience.id">
-                    <router-link :to="{name: 'experience-details', params: {id: experience.id}}">
+                <div v-for="experience in orderItems(experienceData)" :key="experience.id">
+                    <router-link :to="{name: 'experience-details', params: { id: experience.id }}">
                         <div class="card">
                             <img>
                             <div class="card-container">
@@ -32,7 +32,7 @@
             </section>
             <section class="clear">
                 <h4>Education</h4>
-                <div v-for="education in educationData" :key="education.id">
+                <div v-for="education in orderItems(educationData)" :key="education.id">
                     <router-link :to="{name: 'education-details', params: { id: education.id }}">
                         <div class="card">
                             <img>
@@ -68,6 +68,9 @@ export default {
             await this.getExperienceData("");
             await this.getEducationData("");
         },
+        orderItems(items){
+            return items.sort((a, b) => (a.id < b.id) ? 1 : -1);
+        }
     },
     computed: {
         ...mapState(['employmentData', 'experienceData', 'educationData']),

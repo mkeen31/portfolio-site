@@ -2,7 +2,7 @@
     <div class="contact page-container">
         <div id="contact-content">
             <h2>Contact</h2>
-            <img src="../images/selfie.jpg"><br>
+            <img src="../images/headshot.jpg"><br>
             <label>Personal Email: </label>
             <p><a href="mailto:mkeen31@gmail.com">mkeen31@gmail.com</a></p>
             <label>Phone Number: </label>
