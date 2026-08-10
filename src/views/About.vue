@@ -12,8 +12,8 @@
       continued to learn about in both my professional life and my spare time.
       </p>
       <p>
-      I am currently employed as a Software Developer II and Technical Team Lead at Cheetah Inc. in Muncie, Indiana. 
-      Outside of technology, I enjoy going outside, exercising, and reading philosophy, fantasy, and psychology. 
+      I am currently employed as a Software Engineer II at Fanatics Betting & Gaming. 
+      Outside of technology, I enjoy doing outdoor activities, building model kits, and reading. 
       I also enjoy spending time with my friends and my family.
       </p>
     </div>
